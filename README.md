@@ -31,7 +31,7 @@ npm install
 
 3. In a another terminal start ganache cli inside eth-contracts/
 ```
-ganache-cli 
+ganache-cli --gasLimit 500000000 --gasPrice 30000000000 -a 50 -m ""
 ```
 
 3. Inside eth-contracts/ compile the contracts
@@ -187,3 +187,7 @@ https://rinkeby.opensea.io/assets/real-estate-marketplace-v19
 * [Docker](https://docs.docker.com/install/)
 * [ZoKrates](https://github.com/Zokrates/ZoKrates)
 
+# References 
+* https://www.myetherwallet.com/interface/dashboard
+* https://rinkeby.opensea.io/
+* https://rinkeby.etherscan.io/address/0x5fe5163ff8c2136f3054e7b8217966f8d7ab7605

@@ -561,7 +561,7 @@ contract ERC721Metadata is ERC721Enumerable, usingOraclize {
         // see https://github.com/oraclize/ethereum-api/blob/master/oraclizeAPI_0.5.sol for strConcat()
     // require the token exists before setting
 
-    function setTokenFullURI(uint tokenId)
+    function setTokenURI(uint tokenId)
     internal
     {
         require(_exists(tokenId), "Given token does not exist");
@@ -623,9 +623,11 @@ contract MahiERC721Token is ERC721Metadata("Real Estate Marketplace", "NRM", "ht
 
     function mint(address to, uint tokenId) public onlyOwner returns(bool) {
         super._mint(to, tokenId);
-        super.setTokenFullURI(tokenId);
+        super.setTokenURI(tokenId);
         return true;
     }
+
+    
 
 }
 
