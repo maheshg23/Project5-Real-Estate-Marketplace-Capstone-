@@ -170,7 +170,7 @@ https://rinkeby.opensea.io/assets/0x5fe5163ff8c2136f3054e7b8217966f8d7ab7605/129
 
 
 # Listed Tokens
-![Mint](img/MarketPlaceLisiting.png)
+![Mint](img/UpdatedListingsMetaData.png)
 
 # Opensea Storefront
 https://rinkeby.opensea.io/assets/real-estate-marketplace-v19
